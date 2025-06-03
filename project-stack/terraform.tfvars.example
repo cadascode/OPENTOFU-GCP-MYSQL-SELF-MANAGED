@@ -1,0 +1,21 @@
+# Project and Environment Configuration
+project_id = "your-gcp-project-id"
+zone       = "us-central1-a"  # Example: us-central1-a, europe-west1-b
+
+environment = "dev"  # dev, staging, prod
+
+# Organization Structure
+ou = "myorg"           # your-organization-name
+bu = "engineering"     # your-business-unit-name  
+pu = "webapp"         # your-product-name
+
+# VM Configuration
+machine_type   = "e2-small"    # e2-small, e2-medium, n2-standard-2, etc.
+boot_disk_size = 20            # Disk size in GB
+
+# Network Configuration
+service_account_email = "vm-service-account@your-project-id.iam.gserviceaccount.com"
+subnetwork           = "projects/your-project-id/regions/us-central1/subnetworks/default"
+
+# Optional: Uncomment and modify these for custom configuration
+# boot_disk_type = "pd-standard"  # pd-standard, pd-ssd, pd-balanced 
