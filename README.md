@@ -1,5 +1,4 @@
-# OpenTofu/Terraform GCP MySQL Self-Managed Infrastructure
-
+# OpenTofu GCP Salt Cluster
 A production-ready infrastructure as code solution for deploying self-managed MySQL 8.0 on Google Cloud Platform using OpenTofu/Terraform. This project implements enterprise security best practices and provides automated MySQL installation with integrated Cloud Storage backup solutions.
 
 ## 🏗️ Project Structure
