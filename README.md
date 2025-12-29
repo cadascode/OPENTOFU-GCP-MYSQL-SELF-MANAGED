@@ -28,7 +28,7 @@
 - **OpenTofu/Terraform**: >= 1.9.0
 - **Google Cloud SDK**: Latest version
 - **GCP Project**: With billing enabled
-- **Service Account**: With required permissions (see [Permissions](#-permissions) section)
+- **Service Account**: With required permissions
 
 ### 1. Clone and Configure
 
